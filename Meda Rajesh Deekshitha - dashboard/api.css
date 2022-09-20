@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Oxygen&display=swap');
+*{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oxygen', sans-serif;
+
+}
+/*.nav{
+    background:grey;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li{
+    float: right;
+}
+
+.nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: gray;
+    font-size: 17px;
+    color: white;
+    padding: 20px;
+    font-family: arial;
+}
+ .nav a:hover{
+    background: skyblue;
+ }*/
+ .navbar{
+    list-style-type: none;
+    margin:0;
+     padding:0;
+     overflow: hidden;
+     background-color: gray;
+    }
+    .navbar li{
+    float:right;
+    }
+    .navbar li a{
+     text-decoration: none;
+     color:white;
+     display:block;
+     padding:14px 16px;
+    }
+    .navbar li a:hover{
+     background-color: skyblue;
+    }
+    
+ h1{
+    text-align: center;
+    color: black; 
+ }
+ #delete-account{
+    border-radius: 24px;
+ }
+ #delete-account:hover{
+    background-color: #696969;
+ }
+ #view-account{
+    border-radius: 24px;
+ }
+ #view-account:hover{
+    background-color: #696969;
+ }
+ #get-all{
+    border-radius: 24px;
+ }
+ #get-all:hover{
+    background-color: #696969;
+ }

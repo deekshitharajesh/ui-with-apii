@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle></tittle>
+        <link rel="stylesheet" href="api.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="api.js"></script>
+        
+    </head>
+    <body>
+        <div class="navbar">
+            
+                <h1><b> Let's Explore World</b></h1>
+                <li><a href="Login1.html">Login</a></li>
+                <li><a href="index.html">Gallery</a></li>
+                <li><a href="api.html">API Calls</a></li>
+            
+        </div>
+        <h4>Get All Employee Details</h4>
+        <button id="get-all">Get All Details</button>
+        <ul id="empdetails">
+        </ul>
+        
+        <h4>Delete Account </h4>
+        <p> Enter empid : <input type="text" id="deleteAccountNumber"></p>
+        <button id="delete-account">Delete</button>
+        
+
+        <h4>Get  Employee Account Detail Based on ID</h4>
+        <p> Account Number : <input type="text" id="getAccountNumber"></p>
+        <button id="view-account">Get Detail</button>
+        <ul id = "bankdetail">
+        </ul>
+        
+        <h4>Update Employee Name</h4>
+        <p>Enter the empid: <input type="text" id="getEmpid"></p>
+        <p>Enter the New EmployeeName: <input type="text" id="getNewEmp"></p>
+        <button id="update-empName">Update</button> 
+        <ul id="updateDetails">
+        </ul>
+
+        <h4>Enter New Employee Details</h4>
+        <div>
+            <table>
+                <tr>
+                    <td>Empid: </td>
+                    <td><input type="text" id="empid"></td>
+                </tr>
+                <tr>
+                    <td>Employee Name: </td>
+                    <td><input type="text" id="empname"></td>
+                </tr>
+                <tr>
+                    <td>Designation: </td>
+                    <td><input type="text" id="desc"></td>
+                </tr>
+                <tr>
+                    <td>Salary: </td>
+                    <td><input type="text" id="sal"></td>
+                    <tr colspan = "2">
+                        <td><input type="button" value="add" id="addBtn"></td>
+                       
+                    </tr>
+                </tr>
+            </table>
+        </div>
+      
+    </body>
+</html>
